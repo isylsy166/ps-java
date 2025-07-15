@@ -18,5 +18,6 @@ public class No2869 {
             curr -= B; // 내려감
         }
         System.out.println(day);
+
     }
 }
