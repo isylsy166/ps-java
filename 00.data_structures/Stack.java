@@ -1,10 +1,8 @@
-import java.util.Stack;
-
-public class stack {
+public class Stack {
     public static void main(String[] args) {
 
         // 스택 선언 (LIFO : 마지막에 넣은 게 먼저 나온다)
-        Stack<Integer> s = new Stack<>();
+        java.util.Stack<Integer> s = new java.util.Stack<>();
 
         // push : 맨 위에 쌓는다. 넣은 값을 그대로 돌려준다
         for(int i = 1; i <= 3; i++) {
